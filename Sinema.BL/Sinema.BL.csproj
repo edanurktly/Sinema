@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sinema.DAL\Sinema.DAL.csproj" />
+    <ProjectReference Include="..\Sinema.Entities\Sinema.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

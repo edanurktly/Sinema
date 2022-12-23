@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Seans : BaseEntity<Guid>
+    public class Seans : BaseEntity
     {
         public String SeansAdi { get; set; }
 

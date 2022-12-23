@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Gosterim : BaseEntity<Guid>
+    public class Gosterim : BaseEntity
     {
         public Guid? FilmId { get; set; } // Database'e burasi yansir
 

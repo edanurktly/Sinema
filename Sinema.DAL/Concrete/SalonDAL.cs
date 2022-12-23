@@ -1,6 +1,9 @@
-﻿namespace Sinema.DAL.Concrete
+﻿using Sinema.DAL.Abstract;
+using Sinema.Entities.Entities.Concrete;
+
+namespace Sinema.DAL.Concrete
 {
-    public class SalonDAL
+    public class SalonDAL : RepositoryBase<Salon>, ISalonDAL
     {
     }
 }

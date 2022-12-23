@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Film : BaseEntity<Guid>
+    public class Film : BaseEntity
     {
         public string FilmAdi { get; set; }
         public string? Aciklama { get; set; }

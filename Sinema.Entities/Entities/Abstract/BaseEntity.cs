@@ -6,9 +6,9 @@
         Update = 2,
         Delete = 3
     }
-    public abstract class BaseEntity<T>
+    public abstract class BaseEntity
     {
-        public T Id { get; set; }
+        public int Id { get; set; }
 
         private DateTime _CreateDate = DateTime.Now;
         public DateTime CreateDate

@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Kategori : BaseEntity<Guid>
+    public class Kategori : BaseEntity
     {
         public string KategoriAdi { get; set; }
 

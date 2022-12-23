@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Hafta : BaseEntity<Guid>
+    public class Hafta : BaseEntity
     {
         public string HaftaAdi { get; set; }
         public DateTime? Baslangic { get; set; }

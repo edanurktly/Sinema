@@ -4,5 +4,6 @@ namespace Sinema.DAL.Abstract
 {
     public interface IKategoriDAL : IRepositoryBase<Kategori>
     {
+
     }
 }

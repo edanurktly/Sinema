@@ -1,6 +1,10 @@
-﻿namespace Sinema.DAL.Concrete
+﻿using Sinema.DAL.Abstract;
+using Sinema.Entities.Entities.Concrete;
+
+namespace Sinema.DAL.Concrete
 {
-    public class FilmDAL : IRepositoryBase<Film, Guid>
+    public class FilmDAL : RepositoryBase<Film>, IFilmDAL
     {
+
     }
 }

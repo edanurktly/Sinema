@@ -2,7 +2,8 @@
 
 namespace Sinema.DAL.Abstract
 {
-    public interface ISalon : IRepositoryBase<Salon>
+    public interface ISalonDAL : IRepositoryBase<Salon>
     {
+
     }
 }

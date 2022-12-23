@@ -2,7 +2,7 @@
 
 namespace Sinema.Entities.Entities.Concrete
 {
-    public class Salon : BaseEntity<Guid>
+    public class Salon : BaseEntity
     {
         public string SalonAdi { get; set; }
         public byte? Kapasite { get; set; } = 0;
